@@ -1,0 +1,182 @@
+/**
+ *  This file is part of TeamSpeak3 Webviewer.
+ *
+ *  TeamSpeak3 Webviewer is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  TeamSpeak3 Webviewer is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with TeamSpeak3 Webviewer.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#navigation
+{
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.nav-element
+{
+    float: right;
+    margin-left: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+a.nav
+{
+    text-decoration: none;
+}
+
+#languages
+{
+    padding: 10px;
+}
+
+#configs li
+{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+
+    margin-bottom: 8px;
+}
+
+#configs li a.link-gray
+{
+    min-width: 100px;
+    display: inline-block;
+}
+
+#logo
+{
+    margin-left: 50%;
+    margin-top: 18px;
+}
+
+#version
+{
+    text-align: right;
+    color: gray;
+    text-shadow: 0px 0px 2px #555;
+}
+
+#version-hint, #version-hint a
+{
+    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: right;
+    color: white;
+}
+
+div#hint
+{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+div#hint a
+{
+    text-decoration: none;
+}
+
+div#lang-credits
+{
+    width: 200px;
+    height: 300px;
+}
+
+textarea#code-area, textarea#ajax-area
+{
+    width: 500px;
+    height: 110px;
+    font-weight: normal !important;
+    font-size: 12px;
+}
+
+input#code-height, input#code-width
+{
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+}
+
+span.get-code
+{
+    cursor: pointer;
+    float: right;
+}
+
+p.no-config
+{
+    width: 400px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+span#lang-link
+{
+    cursor: pointer;
+}
+
+
+fieldset
+{
+    border: transparent;
+}
+
+iframe
+{
+    border: none;
+    overflow: hidden;
+}
+
+.header
+{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p, span, a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+span.lang
+{
+    margin-left: 12px;
+    font-size: 14px;
+    margin: 3px;
+    padding: 6px;
+}
+
+ul
+{
+    font-size: 18px;
+    list-style-position: inside;
+}
+
+/* Language flag on language selection */
+img.flag
+{
+    margin-right: 4px;
+}
+
+.tswv-languages
+{
+    display: inline-block;
+}
